@@ -201,14 +201,90 @@ h4 {
     margin-bottom: 5%;
 }
 .tablebuttons {
+    background: linear-gradient(to bottom, rgb(26, 26, 26), rgb(50, 50, 50));
+    color: white;
+    font-size: 0.9em;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+#arrowimage {
+    width: 15%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 20%;
+}
+#backtotop {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 5%;
+}
+#newsletterrectangle {
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+    width: 95%;
+}
+#newsletterheader {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: left;
+    margin-left: 8%;
+    margin-top: -38%;
+}
+#newslettertext {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    text-align: left;
+    margin-left: 8%;
+    margin-top: -2%;
+}
+#newsletterbutton {
     background-color: #00C4FF;
     color: white;
     font-size: 0.9em;
     border: none;
-    margin-bottom: 2%;
-    margin-left: 5%;
+    display: block;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+#newsletterline {
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+#socials {
+    width: 50%;
+    margin-left: 1%;
+}
+#legal {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+    text-align: left;
+    margin-left: 1%;
+    margin-top: 5%;
+}
+#footer {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.55em;
+    text-align: left;
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 10%;
 }
