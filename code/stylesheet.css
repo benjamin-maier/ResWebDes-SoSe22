@@ -834,8 +834,12 @@ p {
         padding-right: 3%;
     }
 
+    #kaufbutton:hover {
+        background-color: #00a3d5;
+    }
+
     .imagebuttons {
-        background-color: #2e2e2e;
+        background-color: black;
         color: white;
         font-size: 1em;
         text-decoration: underline;
@@ -871,6 +875,10 @@ p {
         padding-right: 10%;
     }
 
+    .iconbuttons:hover {
+        background-color: #00a3d5;
+    }
+
     #onlinekaufbutton {
         margin-left: 15%;
     }
@@ -891,6 +899,10 @@ p {
         padding-bottom: 1%;
         padding-left: 7.5%;
         padding-right: 7.5%;
+    }
+
+    .tablebuttons:hover {
+        background: #1a1a1a;
     }
 
     #tablebutton1 {
@@ -924,6 +936,10 @@ p {
         padding-bottom: 1%;
         padding-left: 10%;
         padding-right: 10%;
+    }
+
+    #newsletterbutton:hover {
+        background-color: #00a3d5;
     }
 
     /* Trennlinien */
@@ -1061,5 +1077,38 @@ p {
         width: 15%;
         margin-left: 5%;
         margin-top: -6%;
+    }
+
+    /* Animationen */
+    #detailimg1 {
+        transition: transform .4s;
+    }
+
+    #detailimg1:hover {
+        transform: scale(1.05);
+    }
+
+    #detailimg2 {
+        transition: transform .4s;
+    }
+    
+    #detailimg2:hover {
+        transform: scale(1.075);
+    }
+
+    #designimage {
+        transition: transform .4s;
+    }
+
+    #designimage:hover {
+        transform: scale(1.05);
+    }
+
+    #configuratorimg {
+        transition: transform .4s;
+    }
+    
+    #configuratorimg:hover {
+        transform: scale(1.075);
     }
 }
