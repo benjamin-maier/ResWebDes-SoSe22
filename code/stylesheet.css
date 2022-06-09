@@ -14,6 +14,9 @@
 /* Allgemein */
 body {
     background-color: black;
+    max-width: 100%;
+        display: block;
+        margin: auto;
 }
 
 #markenlogo {
@@ -23,6 +26,22 @@ body {
     padding-bottom: 0%;
     padding-top: 3%;
     margin: auto
+}
+
+#title {
+    display: block;
+}
+
+#desktoptitle {
+    display: none;
+}
+
+#titlepicture {
+    display: block;
+}
+
+#desktoptitlepicture {
+    display: none;
 }
 
 /* Überschriften */
@@ -243,8 +262,9 @@ p {
     display: block;
     margin: auto;
     margin-bottom: 7%;
+    padding-top: 4%;
+    padding-bottom: 4%;
     width: 100%;
-    height: 75px;
 }
 
 .iconbuttons {
@@ -305,8 +325,9 @@ p {
 }
 
 #newsletterline {
-    margin-top: 8%;
+    margin-top: 12%;
     margin-bottom: 5%;
+    width: 95%;
 }
 
 /* Bilder */
@@ -356,6 +377,12 @@ p {
         width: 6%;
         padding-bottom: -10%;
         padding-top: 3%;
+    }
+
+    body {
+        max-width: 900px;
+        display: block;
+        margin: auto;
     }
 
     /* Überschriften */
@@ -476,23 +503,25 @@ p {
 
     .imagebuttons {
         margin-bottom: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
     }
 
     .iconbuttons {
         font-size: 1em;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        padding-left: 25%;
-        padding-right: 25%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        padding-left: 18%;
+        padding-right: 18%;
     }
 
     .tablebuttons {
         font-size: 1em;
         margin-bottom: 2%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        padding-left: 25%;
-        padding-right: 25%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        padding-left: 20%;
+        padding-right: 20%;
     }
 
     #newsletterbutton {
@@ -501,8 +530,8 @@ p {
         margin-top: 7%;
         padding-top: 2%;
         padding-bottom: 2%;
-        padding-left: 30%;
-        padding-right: 30%;
+        padding-left: 20%;
+        padding-right: 20%;
     }
 
     /* Trennlinien */
@@ -512,8 +541,8 @@ p {
     }
 
     #newsletterline {
-        margin-top: 15%;
-        width: 95%;
+        margin-top: 10%;
+        width: 90%;
     }
 
     /* Bilder */
@@ -545,7 +574,7 @@ p {
 /*----------------------------------------*/
 
 /* Desktop */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1650px) {
 
     /* Logo */
     #markenlogo {
@@ -554,10 +583,32 @@ p {
         padding-top: 2%;
     }
 
+    body {
+        max-width: 1800px;
+        display: block;
+        margin: auto;
+    }
+
+    #title {
+        display: none;
+    }
+    
+    #desktoptitle {
+        display: block;
+    }
+
+    #titlepicture {
+        display: none;
+    }
+    
+    #desktoptitlepicture {
+        display: block;
+    }
+
     /* Überschriften */
     h1 {
         font-size: 2.7em;
-        margin-top: -30%;
+        margin-top: -25%;
         margin-left: 10%;
     }
 
@@ -591,7 +642,7 @@ p {
     }
 
     #oberertechniktext {
-        margin-top: 25%;
+        margin-top: 12%;
     }
 
     #techniktextunterstats {
