@@ -1,22 +1,22 @@
 /* Allgemeine Animationen*/
-.reveal{
+.reveal {
     position: relative;
     transform: translateY(30px);
     opacity: 0;
     transition: 0.8s all ease;
-  }
+}
 
-  .reveal.active{
+.reveal.active {
     transform: translateY(0);
     opacity: 1;
-  }
+}
 
 /* Allgemein */
 body {
     background-color: black;
     max-width: 100%;
-        display: block;
-        margin: auto;
+    display: block;
+    margin: auto;
 }
 
 #markenlogo {
@@ -380,7 +380,7 @@ p {
     }
 
     body {
-        max-width: 900px;
+        max-width: 950px;
         display: block;
         margin: auto;
     }
@@ -592,7 +592,7 @@ p {
     #title {
         display: none;
     }
-    
+
     #desktoptitle {
         display: block;
     }
@@ -600,7 +600,7 @@ p {
     #titlepicture {
         display: none;
     }
-    
+
     #desktoptitlepicture {
         display: block;
     }
@@ -1155,7 +1155,7 @@ p {
     #detailimg2 {
         transition: transform .4s;
     }
-    
+
     #detailimg2:hover {
         transform: scale(1.075);
     }
@@ -1171,7 +1171,7 @@ p {
     #configuratorimg {
         transition: transform .4s;
     }
-    
+
     #configuratorimg:hover {
         transform: scale(1.075);
     }
